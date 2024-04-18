@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: gray;
+}
+
+.container {
+  margin-left: 35%;
+  margin-top: 50px;
+  border: 2px solid gray;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  margin-top: 25px;
+  border: none;
+}
+
+::placeholder {
+  padding: 10px;
+  font-size: 20px;
+}
